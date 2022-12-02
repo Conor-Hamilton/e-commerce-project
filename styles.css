@@ -186,7 +186,7 @@ button:active {
 
 .highlight__wrapper {
     display: flex;
-    z-index: 2;
+    z-index: 50;
 }
 
 .highlight {
