@@ -157,7 +157,6 @@ header {
 }
 
 .header__container {
-    padding-top: 20px;
     width: 100%;
     max-width: 720px;
     margin: 0 auto;
@@ -205,6 +204,7 @@ button:active {
 
 .header__img--wrapper {
     padding: 20px;
+    z-index: 50;
 }
 
 .container {
@@ -237,7 +237,7 @@ button:active {
     width: 101vw;
     height: 12vw;
     left: 0px;
-    z-index: 51;
+    z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -255,7 +255,7 @@ button:active {
 
 .highlight__wrapper {
     display: flex;
-    z-index: 50;
+    flex-wrap: wrap;
 }
 
 .highlight {
@@ -263,7 +263,6 @@ button:active {
     width: calc(100% / 3);
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -288,6 +287,7 @@ button:active {
 .highlight__subtitle {
     font-size: 20px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 /* Features */
